@@ -1,0 +1,56 @@
+
+.toolbar{
+  background-color:#505f75;
+}
+.mat-drawer,.mat-tree{
+  background-color:#333e50;
+}
+
+.search,.input{
+  color:darkgray;
+}
+.rechercher{
+  width: 80%;
+  color:whitesmoke;
+
+}
+.mat-tree-node{
+  color:whitesmoke;
+}
+
+.container-fluid,.mat-grid-list{
+  background-color:#fbfbfb;
+}
+.metrique{
+  background-color:#fbfbfb;
+  width: 18%;}
+.mat-card{
+  border-color: cornflowerblue;
+  border-style: solid;
+  border-width: thin;
+}
+.xy{
+  height:25%; width:25%;}
+.periode,p{
+  color: #333e50;
+}
+#choix{color: #333e50;}
+.mat-grid-tile {
+  background: white;
+}
+#a {
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90.2%;}
+#b{
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 88%;
+}
+
