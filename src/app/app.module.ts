@@ -14,15 +14,21 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule}from "@angular/material/form-field";
 import {MatNativeDateModule} from "@angular/material/core";
 import {MatCardModule} from '@angular/material/card';
+import { ColumnComponent } from './column/column.component';
+import { NgxEchartsModule } from 'ngx-echarts';import { NgxChartsModule }from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColumnComponent,
+  
   ],
   imports: [
-    MatFormFieldModule,  BrowserModule,MatNativeDateModule,MatCardModule,
+    MatFormFieldModule,  BrowserModule,MatNativeDateModule,MatCardModule,NgxEchartsModule.forRoot({
+      echarts: () => import('echarts')
+    }),
     AppRoutingModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule,NgxChartsModule,
     MatToolbarModule,
     MatTreeModule,
     MatIconModule,
